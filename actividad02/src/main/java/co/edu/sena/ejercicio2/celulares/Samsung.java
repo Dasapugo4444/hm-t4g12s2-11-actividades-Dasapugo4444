@@ -1,4 +1,9 @@
 package co.edu.sena.ejercicio2.celulares;
 
-public class Samsung {
+public abstract class Samsung extends  Celular {
+
+    public void comprar(){
+
+    }
+
 }

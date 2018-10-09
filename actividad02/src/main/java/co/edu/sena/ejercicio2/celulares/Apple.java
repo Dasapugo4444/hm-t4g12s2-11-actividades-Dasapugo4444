@@ -1,4 +1,9 @@
 package co.edu.sena.ejercicio2.celulares;
 
-public class Apple {
+public abstract class Apple extends Celular{
+
+    public void comprar(){
+
+    }
+
 }
