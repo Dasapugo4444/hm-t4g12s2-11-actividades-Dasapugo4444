@@ -2,27 +2,27 @@ package co.edu.sena.actividad04;
 
 public abstract class Hormiga {
 
-    public String comer(){
-       return comer();
+    public void comer(){
+        System.out.println();
     }
 
-    public String respirar(){
+    public void respirar(){
         return respirar();
     }
 
-    public String caminar(){
-        return caminar();
+    public void caminar(){
+        System.out.println();
     }
 
-    public String correr(){
-        return correr();
+    public void correr(){
+        System.out.println();
     }
 
-    public String nacer(){
-        return nacer();
+    public void nacer(){
+        System.out.println();
     }
 
-    public String morir(){
-        return morir();
+    public void morir(){
+        System.out.println();
     }
 }

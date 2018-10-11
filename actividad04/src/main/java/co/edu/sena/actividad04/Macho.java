@@ -2,47 +2,47 @@ package co.edu.sena.actividad04;
 
 public class Macho extends Hormiga implements Obrero, Soldado, Explorador, HormigaInterface{
 
-    public String construir(){
-        return construir();
+    public void construir(){
+        System.out.println();
     }
 
-    public String arreglar(){
-        return arreglar();
+    public void arreglar(){
+        System.out.println();
     }
 
-    public String recolectar(){
-        return recolectar();
+    public void recolectar(){
+        System.out.println();
     }
 
-    public String excavar(){
-        return excavar();
+    public void excavar(){
+        System.out.println();
     }
 
-    public String luchar(){
-        return luchar();
+    public void luchar(){
+        System.out.println();
     }
 
-    public String defender(){
-        return defender();
+    public void defender(){
+        System.out.println();
     }
 
-    public String vigilar(){
-        return vigilar();
+    public void vigilar(){
+        System.out.println();
     }
 
-    public String investigar(){
-        return investigar();
+    public void investigar(){
+        System.out.println();
     }
 
-    public String marcarCaminos(){
-        return marcarCaminos();
+    public void marcarCaminos(){
+        System.out.println();
     }
 
-    public String informar(){
-        return informar();
+    public void informar(){
+        System.out.println();
     }
 
-    public String cuidarCasa(){
-        return cuidarCasa();
+    public void cuidarCasa(){
+        System.out.println();
     }
 }

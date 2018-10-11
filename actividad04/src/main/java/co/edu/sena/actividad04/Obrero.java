@@ -2,7 +2,9 @@ package co.edu.sena.actividad04;
 
 public interface Obrero {
 
-    String construir();
-
-
+    public abstract void construir();
+    public void arreglar();
+    public void recolectar();
+    public void excavar();
+    public void cuidarCasa();
 }
