@@ -2,12 +2,12 @@ package co.edu.sena.actividad04;
 
 public class Reina extends Hormiga{
 
-    public String ponerHuevos() {
-        return ponerHuevos();
+    public void ponerHuevos() {
+        System.out.println("pongo huevos");
     }
 
-    public String mandar(){
-        return mandar();
+    public void mandar(){
+        System.out.println("Siempre tengo la razón :p");
     }
 
 }
