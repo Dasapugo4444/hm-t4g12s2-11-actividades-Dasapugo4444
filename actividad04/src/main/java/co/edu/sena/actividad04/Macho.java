@@ -1,6 +1,6 @@
 package co.edu.sena.actividad04;
 
-public class Macho extends Hormiga{
+public class Macho extends Hormiga implements Obrero, Soldado, Explorador, HormigaInterface{
 
     public String construir(){
         return construir();
