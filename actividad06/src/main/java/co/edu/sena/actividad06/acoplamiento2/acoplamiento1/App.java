@@ -2,18 +2,20 @@ package co.edu.sena.actividad06.acoplamiento2.acoplamiento1;
 
 public class App {
 
-    public static void main(String [] args){
+    public static void main(String [] args) {
 
-        ClaseUno objetoClaseUno=new ClaseUno();
-        ClaseUno.ClaseDos objetoClaseDos=new ClaseUno.ClaseDos();
-        ClaseUno.ClaseDos.ClaseTres objetoClaseTres=new ClaseUno.ClaseDos.ClaseTres();
-        ClaseUno.ClaseDos.ClaseTres.ClaseCuatro objetoClaseCuatro=new ClaseUno.ClaseDos.ClaseTres.ClaseCuatro();
-        ClaseUno.ClaseDos.ClaseTres.ClaseCuatro.ClaseCinco objetoClaseCinco=new ClaseUno.ClaseDos.ClaseTres.ClaseCuatro.ClaseCinco();
-        ClaseUno.ClaseDos.ClaseTres.ClaseCuatro.ClaseCinco.ClaseSeis objetoClaseSeis=new ClaseUno.ClaseDos.ClaseTres.ClaseCuatro.ClaseCinco.ClaseSeis();
-        ClaseUno.ClaseDos.ClaseTres.ClaseCuatro.ClaseCinco.ClaseSeis.ClaseSiete objetoClaseSiete=new ClaseUno.ClaseDos.ClaseTres.ClaseCuatro.ClaseCinco.ClaseSeis.ClaseSiete();
-        ClaseUno.ClaseDos.ClaseTres.ClaseCuatro.ClaseCinco.ClaseSeis.ClaseSiete.ClaseOcho objetoClaseOcho=new ClaseUno.ClaseDos.ClaseTres.ClaseCuatro.ClaseCinco.ClaseSeis.ClaseSiete.ClaseOcho();
-        ClaseUno.ClaseDos.ClaseTres.ClaseCuatro.ClaseCinco.ClaseSeis.ClaseSiete.ClaseOcho.ClaseNueve objetoClaseNueve=new ClaseUno.ClaseDos.ClaseTres.ClaseCuatro.ClaseCinco.ClaseSeis.ClaseSiete.ClaseOcho.ClaseNueve();
-        ClaseUno.ClaseDos.ClaseTres.ClaseCuatro.ClaseCinco.ClaseSeis.ClaseSiete.ClaseOcho.ClaseNueve.ClaseDiez objetoClaseDiez=new ClaseUno.ClaseDos.ClaseTres.ClaseCuatro.ClaseCinco.ClaseSeis.ClaseSiete.ClaseOcho.ClaseNueve.ClaseDiez();
+       ClaseUno obClase1 =new ClaseUno();
+       ClaseUno.ClaseDos obClase2 = obClase1.new ClaseDos();
+       ClaseUno.ClaseDos.ClaseTres obClase3 = obClase2.new ClaseTres();
+       ClaseUno.ClaseDos.ClaseTres.ClaseCuatro obClase4 = obClase3.new ClaseCuatro();
+       ClaseUno.ClaseDos.ClaseTres.ClaseCuatro.ClaseCinco obClase5 = obClase4.new ClaseCinco();
+       ClaseUno.ClaseDos.ClaseTres.ClaseCuatro.ClaseCinco.ClaseSeis obClase6 = obClase5.new ClaseSeis();
+       ClaseUno.ClaseDos.ClaseTres.ClaseCuatro.ClaseCinco.ClaseSeis.ClaseSiete obClase7 = obClase6.new ClaseSiete();
+       ClaseUno.ClaseDos.ClaseTres.ClaseCuatro.ClaseCinco.ClaseSeis.ClaseSiete.ClaseOcho obclase8 = obClase7.new ClaseOcho();
+       ClaseUno.ClaseDos.ClaseTres.ClaseCuatro.ClaseCinco.ClaseSeis.ClaseSiete.ClaseOcho.ClaseNueve obClase9 = obclase8.new ClaseNueve();
+       ClaseUno.ClaseDos.ClaseTres.ClaseCuatro.ClaseCinco.ClaseSeis.ClaseSiete.ClaseOcho.ClaseNueve.ClaseDiez obClase10 = obClase9.new ClaseDiez();
     }
 
-}
+    }
+
+
