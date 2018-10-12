@@ -8,6 +8,30 @@ public class App {
 
         Obrero obrero=new Obrero() {
 
+            public void comer() {
+                System.out.println("como");
+            }
+
+            public void repirar() {
+                System.out.println("respiro");
+            }
+
+            public void caminar() {
+                System.out.println("Caminar");
+            }
+
+            public void correr() {
+                System.out.println("correr");
+            }
+
+            public void nacer() {
+                System.out.println("nacer");
+            }
+
+            public void morir() {
+                System.out.println("morir");
+            }
+
             public void construir(){
                 System.out.println("prostagma");
             }
@@ -34,10 +58,40 @@ public class App {
         obrero.cuidarCasa();
         obrero.excavar();
         obrero.recolectar();
+        obrero.caminar();
+        obrero.comer();
+        obrero.correr();
+        obrero.morir();
+        obrero.nacer();
+        obrero.repirar();
 
         System.out.println("Soldado:");
 
         Soldado soldado=new Soldado() {
+
+            public void comer() {
+                System.out.println("como");
+            }
+
+            public void repirar() {
+                System.out.println("respiro");
+            }
+
+            public void caminar() {
+                System.out.println("Caminar");
+            }
+
+            public void correr() {
+                System.out.println("correr");
+            }
+
+            public void nacer() {
+                System.out.println("nacer");
+            }
+
+            public void morir() {
+                System.out.println("morir");
+            }
 
             public void luchar(){
                 System.out.println("terrorists win");
@@ -56,10 +110,40 @@ public class App {
         soldado.defender();
         soldado.luchar();
         soldado.vigilar();
+        soldado.caminar();
+        soldado.comer();
+        soldado.correr();
+        soldado.morir();
+        soldado.nacer();
+        soldado.repirar();
 
         System.out.println("Explorador");
 
         Explorador explorador=new Explorador() {
+
+            public void comer() {
+                System.out.println("como");
+            }
+
+            public void repirar() {
+                System.out.println("respiro");
+            }
+
+            public void caminar() {
+                System.out.println("Caminar");
+            }
+
+            public void correr() {
+                System.out.println("correr");
+            }
+
+            public void nacer() {
+                System.out.println("nacer");
+            }
+
+            public void morir() {
+                System.out.println("morir");
+            }
 
             public void investigar(){
                 System.out.println("cherlo jols");
@@ -78,6 +162,12 @@ public class App {
         explorador.investigar();
         explorador.marcarCaminos();
         explorador.informar();
+        explorador.caminar();
+        explorador.comer();
+        explorador.correr();
+        explorador.morir();
+        explorador.nacer();
+        explorador.repirar();
     }
 
 }
